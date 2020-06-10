@@ -45,6 +45,8 @@ footer p {
     margin: 20px 0;
 }
 
+
+
 .zip input{
     max-width: 200px;
 }
@@ -113,7 +115,7 @@ fieldset {
 select {
     padding: 6px;
     height: 50px;
-    border-radius: 2px;
+    border-radius: 6px;
 }
 
 label {
@@ -148,4 +150,15 @@ button:hover {
     form {
         max-width: 65%;
     }
+
+    .container {
+        display: flex;
+        align-items: center ;
+        margin-bottom: 12px;
+    }
+
+    .container label {
+		flex-basis: 30%;
+		flex-shrink: 0;
+	}
 }
