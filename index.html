@@ -126,21 +126,21 @@
         <fieldset>
             <div class="newsletter">
                 <h2>Newsletter</h2>
-                <label for="newsletter_options">Select the newsletters you would live to receive</label><br>
-                <input type="checkbox" id="html" value="interest_html"><label for="html">HTML News</label><br>
+                <label for="html-news">Select the newsletters you would live to receive</label><br>
+                <input type="checkbox" id="html-news" name="interest_html"><label for="html">HTML News</label><br>
 
-                <input type="checkbox" id="css" value="interest_css"><label for="css">CSS News</label><br>
+                <input type="checkbox" id="css" name="interest_css"><label for="css">CSS News</label><br>
 
-                <input type="checkbox" id="javascript" value="interest_javascript"><label for="javascript">Javascript News</label><br>
+                <input type="checkbox" id="javascript" name="interest_javascript"><label for="javascript">Javascript News</label><br>
             </div>
 
             <div class="newsletter">
-                <label for="newsletter_format">Newsletter format</label><br>
+                <label for="html">Newsletter format</label><br>
                 <input type="radio" id="html" name="user_interest"><label>HTML</label><br>
                 <input type="radio" id="plain_text" name="user_interest"><label>Plain text</label><br>
 
-                <label for="comment">Other topics you'd like to hear about</label><br>
-                <textarea type="text" id="user_text" name="user_comment"></textarea>
+                <label for="user_text">Other topics you'd like to hear about</label><br>
+                <textarea id="user_text" name="user_comment"></textarea>
             </div>
             <button>Sign Up</button>
         </fieldset>
